@@ -1,0 +1,23 @@
+/* Plus Jakarta Sans — primary UI / body font */
+@import "@fontsource/plus-jakarta-sans/400.css";
+@import "@fontsource/plus-jakarta-sans/500.css";
+@import "@fontsource/plus-jakarta-sans/600.css";
+@import "@fontsource/plus-jakarta-sans/700.css";
+@import "@fontsource/plus-jakarta-sans/800.css";
+
+/* Instrument Serif — elegant editorial section headings */
+@import "@fontsource/instrument-serif/400.css";
+
+/* Playfair Display — hero headline only */
+@import "@fontsource/playfair-display/400.css";
+
+/* Poetsen One — playful rounded display headings (testimonials, insights, CTA) */
+@import "@fontsource/poetsen-one/400.css";
+
+/* Mona Sans — footer column headings */
+@import "@fontsource/mona-sans/600.css";
+@import "@fontsource/mona-sans/400.css";
+
+/* DM Sans — footer body copy */
+@import "@fontsource/dm-sans/400.css";
+@import "@fontsource/dm-sans/500.css";

@@ -1,0 +1,52 @@
+=== COLORS ===
+107 #ffffff
+107 #ffffff@0.06
+107 #ffffff@0.04
+104 #ffffff@0.10
+57 #ffffff@0.50
+34 #c59b27
+27 #ede9e1
+9 #000000
+8 #151818
+8 #222222
+8 #151818@0.60
+7 #151818@0.40
+5 #8a8e8e
+5 #dfb75c
+5 #191b1b
+5 #a5a8a8
+4 #000000@0.15
+4 #000000@0.00
+4 #a77d18
+4 #6e7171
+4 #adb295
+3 #2d1e0a
+3 #4d3b1b
+1 #010101
+1 #d9d9d9
+1 #c59b27@0.30
+1 #0b0d0d
+1 #0e0a14@0.85
+1 #fdfbf7
+1 #0b0810
+1 #868080@0.40
+1 #f2ebdf
+=== RADII ===
+[
+   1,  5,  6,  10, 14, 16,
+  17, 18, 20,  24, 25, 28,
+  30, 32, 40, 100
+]
+=== SHADOWS (unique) ===
+ProgramCard [{"type":"DROP_SHADOW","radius":24,"offset":{"x":0,"y":12},"color":"#000000","opacity":0.250980406999588}]
+Badge [{"type":"DROP_SHADOW","radius":10,"offset":{"x":0,"y":4},"color":"#000000","opacity":0.062745101749897}]
+Badge [{"type":"DROP_SHADOW","radius":10,"offset":{"x":0,"y":4},"color":"#000000","opacity":0.125490203499794}]
+PrimaryCTA [{"type":"DROP_SHADOW","radius":16,"offset":{"x":0,"y":8},"color":"#dfb75c","opacity":0.250980406999588}]
+Frame [{"type":"DROP_SHADOW","radius":24,"offset":{"x":0,"y":12},"color":"#000000","opacity":0.062745101749897}]
+Frame [{"type":"DROP_SHADOW","radius":16,"offset":{"x":0,"y":8},"color":"#000000","opacity":0.125490203499794},{"type":"BACKGROUND_BLUR","radius":7.599999904632568}]
+CTA_Button [{"type":"DROP_SHADOW","radius":16,"offset":{"x":0,"y":8},"color":"#c59b27","opacity":0.20000000298023224}]
+Overlay+OverlayBlur [{"type":"BACKGROUND_BLUR","radius":30}]
+Header [{"type":"BACKGROUND_BLUR","radius":69.9000015258789}]
+PrimaryCTA [{"type":"DROP_SHADOW","radius":24,"offset":{"x":0,"y":8},"color":"#dfb75c","opacity":0.20000000298023224}]
+WidgetLivesImpacted [{"type":"DROP_SHADOW","radius":20,"offset":{"x":0,"y":10},"color":"#000000","opacity":0.0313725508749485},{"type":"BACKGROUND_BLUR","radius":20.700000762939453}]
+StatsPanel [{"type":"BACKGROUND_BLUR","radius":40}]

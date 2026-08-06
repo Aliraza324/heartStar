@@ -1,0 +1,61 @@
+import {
+  Award,
+  Users,
+  Globe,
+  Briefcase,
+  Sun,
+  Shield,
+  Activity,
+  User,
+  Compass,
+  Mic,
+  Star,
+  Play,
+  ChevronDown,
+  ChevronUp,
+  ArrowRight,
+  ArrowUpRight,
+  CheckCircle2,
+  Quote,
+  Menu,
+  X,
+  Send,
+  Mail,
+  MapPin,
+  Phone,
+  Sparkles,
+} from "lucide-react";
+
+const registry = {
+  award: Award,
+  users: Users,
+  globe: Globe,
+  briefcase: Briefcase,
+  sun: Sun,
+  shield: Shield,
+  activity: Activity,
+  user: User,
+  compass: Compass,
+  mic: Mic,
+  star: Star,
+  play: Play,
+  "chevron-down": ChevronDown,
+  "chevron-up": ChevronUp,
+  "arrow-right": ArrowRight,
+  "arrow-up-right": ArrowUpRight,
+  "check-circle": CheckCircle2,
+  quote: Quote,
+  menu: Menu,
+  close: X,
+  send: Send,
+  mail: Mail,
+  "map-pin": MapPin,
+  phone: Phone,
+  sparkles: Sparkles,
+};
+
+export default function Icon({ name, className, strokeWidth = 2, ...rest }) {
+  const Cmp = registry[name];
+  if (!Cmp) return null;
+  return <Cmp className={className} strokeWidth={strokeWidth} aria-hidden="true" {...rest} />;
+}
